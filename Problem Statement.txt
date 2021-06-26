@@ -1,0 +1,8 @@
+Task is to scrape PX report from the url: "https://schedule.erldc.in/Report/PXIndex"
+using python, you can opt to use selenium too in python, but keep in mind the code to be written has to run on aws. you can use the below given structure instead of giving access details of your aws account.
+myDB = pymysql.connect("rdsendpoint.rds.amazonaws.com", "usename", "password", "database")
+
+
+
+
+
